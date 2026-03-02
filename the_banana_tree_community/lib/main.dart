@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:the_banana_tree_community/presentation/pages/welcomePage/welcome_page.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:the_banana_tree_community/features/presentation/auth/views/login_view.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 
@@ -13,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: const WelcomeView(),
+      home: const LoginView(),
     );
   }
 }

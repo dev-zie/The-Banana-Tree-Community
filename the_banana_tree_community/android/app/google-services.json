@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376439119060",
+    "project_id": "the-banana-tree-communit-6834e",
+    "storage_bucket": "the-banana-tree-communit-6834e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376439119060:android:7ce6a6def6e372eb2baf41",
+        "android_client_info": {
+          "package_name": "com.example.the_banana_tree_community"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIL2YQDdSuw-kI_yFUTR9XsNADdDrMYx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
